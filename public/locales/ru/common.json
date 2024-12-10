@@ -1,0 +1,178 @@
+{
+  "pages": {
+    "login": {
+      "title": "Войдите в свой аккаунт",
+      "signin": "Войти",
+      "signup": "Зарегистрироваться",
+      "divider": "или",
+      "fields": {
+        "email": "Электронная почта",
+        "password": "Пароль"
+      },
+      "errors": {
+        "validEmail": "Неверный адрес электронной почты "
+      },
+      "buttons": {
+        "submit": "Авторизоваться",
+        "forgotPassword": "Забыли пароль?",
+        "noAccount": "У вас нет учетной записи?",
+        "rememberMe": "Запомнить меня"
+      }
+    },
+    "confirmEmail": {
+      "title": "Подтвердите адрес электронной почты",
+      "buttons": {
+        "confirming": "Подтверждая...",
+        "confirm": "Подтверждать"
+      }
+    },
+    "forgotPassword": {
+      "title": "Забыли пароль?",
+      "fields": {
+        "email": "Электронная почта"
+      },
+      "errors": {
+        "validEmail": "Неверный адрес электронной почты"
+      },
+      "buttons": {
+        "submit": "Отправить инструкции сброса"
+      }
+    },
+    "register": {
+      "title": "Зарегистрируйтесь на своем аккаунте",
+      "fields": {
+        "email": "Электронная почта",
+        "password": "Пароль"
+      },
+      "errors": {
+        "validEmail": "Неверный адрес электронной почты "
+      },
+      "buttons": {
+        "submit": "Зарегистрироваться ",
+        "haveAccount": "Есть учетная запись? "
+      }
+    },
+    "updatePassword": {
+      "title": "Обновить пароль",
+      "fields": {
+        "password": "Новый пароль",
+        "confirmPassword": "Подтвердите новый пароль "
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "Пароли не совпадают "
+      },
+      "buttons": {
+        "submit": "Обновлять"
+      }
+    },
+    "error": {
+      "info": "Возможно, вы забыли добавить компонент {{action}} в {{resource}} ресурс. ",
+      "404": "Извините, страница, которую вы посетили, не существует.",
+      "resource404": "Вы уверены, что создали ресурс {{resource}}.",
+      "backHome": "Вернуться домой"
+    }
+  },
+  "actions": {
+    "list": "Список",
+    "create": "Создавать",
+    "edit": "Редактировать",
+    "show": "Показывать"
+  },
+  "buttons": {
+    "create": "Создавать",
+    "save": "Сохранить",
+    "logout": "Выход",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "cancel": "Отмена",
+    "confirm": "Вы уверены?",
+    "filter": "Фильтр",
+    "clear": "Прозрачный",
+    "refresh": "Обновить ",
+    "show": "Показывать",
+    "undo": "Отменить",
+    "import": "Импорт ",
+    "clone": "Клон ",
+    "notAccessTitle": "У вас нет разрешения на доступ"
+  },
+  "warnWhenUnsavedChanges": "Вы уверены, что хотите уйти?У вас есть неспасенные изменения.",
+  "notifications": {
+    "success": "Успешно",
+    "error": "Error (status code: {{statusCode}})",
+    "undoable": "You have {{seconds}} seconds to undo",
+    "createSuccess": "Successfully created {{resource}}",
+    "createError": "There was an error creating {{resource}} (status code: {{statusCode}})",
+    "deleteSuccess": "Successfully deleted {{resource}}",
+    "deleteError": "Error when deleting {{resource}} (status code: {{statusCode}})",
+    "editSuccess": "Successfully edited {{resource}}",
+    "editError": "Error when editing {{resource}} (status code: {{statusCode}})",
+    "importProgress": "Importing: {{processed}}/{{total}}"
+  },
+  "loading": "Загрузка ",
+  "tags": {
+    "clone": "Клон "
+  },
+  "dashboard": {
+    "title": "Приборная панель "
+  },
+  "users": {
+    "users": "Пользователи",
+    "fields": {
+      "id": "ID",
+      "email": "Электронная почта",
+      "provider": "Поставщик",
+      "firstName": "Имя",
+      "lastName": "Фамилия",
+      "createdAt": "Дата создания",
+      "updatedAt": "Дата изменения",
+      "status": "Статус",
+      "permissions": "Разрешения",
+      "password": "Пароль"
+    },
+    "titles": {
+      "create": "Создать пользователя",
+      "edit": "Редактировать пользователя",
+      "list": "Пользователи",
+      "show": "Просмотр информации о пользователе"
+    }
+  },
+  "applicants": {
+    "applicants": "Заявители",
+    "fields": {
+      "id": "ID",
+      "fullName": "ФИО",
+      "gender": "Пол",
+      "birthDate": "Возраст",
+      "phoneNumber": "Номер телефона",
+      "createdAt": "Дата создания",
+      "updatedAt": "Дата изменения"
+    },
+    "titles": {
+      "create": "Добавить заявителя",
+      "edit": "Редактировать заявителя",
+      "list": "Заявители",
+      "show": "Просмотр информации о заявителе"
+    }
+  },
+  "documentTitle": {
+    "default": "Сopyright Manager",
+    "suffix": " | Сopyright Manager",
+    "articles": {
+      "list": "Articles | Сopyright Manager",
+      "show": "#{{id}} Show article | Сopyright Manager",
+      "edit": "#{{id}} Edit article | Сopyright Manager",
+      "create": "Create new article | Сopyright Manager",
+      "clone": "#{{id}} Clone article | Сopyright Manager"
+    },
+    "users": {
+      "list": "Пользователи | Сopyright Manager",
+      "show": "#{{id}} Show user | Сopyright Manager",
+      "edit": "#{{id}} Edit user | Сopyright Manager",
+      "create": "Create new user | Сopyright Manager",
+      "clone": "#{{id}} Clone user | Сopyright Manager"
+    }
+  },
+  "table": {
+    "actions": "Действия"
+  }
+}
